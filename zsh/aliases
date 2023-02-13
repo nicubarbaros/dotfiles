@@ -1,0 +1,4 @@
+#meteor alias
+alias ms="meteor npm start"
+
+alias g="git"

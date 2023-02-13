@@ -1,0 +1,31 @@
+# Local/private config goes in the include
+[include]
+        path = ~/.gitconfig.local
+[alias]
+	      g = 'git'
+        # List all aliases
+        la = "!f() { git config --get-regexp alias; }; f"
+
+        mt = "!f() { MOCHA_GREP=\"$@\" meteor npm run test:watch; }; f"
+        # Commit alias
+        cap = "!f() { git commit -m \"$@\"; }; f"
+
+        # Git aliases
+        cfix = "!f() { git cap \"🐞 $@\"; }; f"
+        cref = "!f() { git cap \"♻️ $@\"; }; f"
+        ctest = "!f() { git cap \"✅ $@\"; }; f"
+        cwip = "!f() { git cap \"🚧 $@\"; }; f"
+        cperf = "!f() { git cap \"⚡️ $@\"; }; f"
+        cimp = "!f() { git cap \"👌 $@\"; }; f"
+        cadd = "!f() { git cap \"⭐️ Add $@\"; }; f"
+        ccln = "!f() { git cap \"✨ $@\"; }; f"
+        cupg = "!f() { git cap \"⬆️ $@\"; }; f"
+        cdwg = "!f() { git cap \"⬇️ $@\"; }; f"
+        cui = "!f() { git cap \"🌈 $@\"; }; f"
+        publish = "!git push origin HEAD"
+        amend = "!git commit --amend --no-edit"
+        drop="!git reset --hard HEAD"
+[push]
+        autoSetupRemote = true
+[init]
+	defaultBranch = master
