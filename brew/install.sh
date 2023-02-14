@@ -24,8 +24,8 @@ brew install vim
 
 # Install essential casks
 
-brew cask install iterm2
-brew cask install google-chrome
+brew install --cask iterm2
+brew install --cask google-chrome
 brew install --cask karabiner-elements
 brew install --cask raycast
 brew install --cask notion
