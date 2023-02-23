@@ -12,4 +12,4 @@ source $ZSH/oh-my-zsh.sh
 
 
 # Load: ALIASES
-source $HOME/dotfiles/zsh/aliases
+source $HOME/dotfiles/zsh/aliases PATH="/usr/local/bin:$PATH"

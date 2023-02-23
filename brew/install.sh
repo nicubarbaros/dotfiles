@@ -19,6 +19,8 @@ brew install git
 brew install node
 brew install yarn
 brew install zsh
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
 #brew install neovim
 brew install vim
 
