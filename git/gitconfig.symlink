@@ -25,6 +25,13 @@
         publish = "!git push origin HEAD"
         amend = "!git commit --amend --no-edit"
         drop="!git reset --hard HEAD"
+        fetch-and-clean-branches = "!git fetch -p \
+    		&& git branch -vv \
+    		| grep ': gone]' \
+    		| grep -v "\\*" \
+    		| awk '{ if ($1==\"+\") { print $2; } else { print $1;} }' \
+    		| xargs git branch -D"
+  	start = "!(git fetch-and-clean-branches || true) && git checkout -b \"$1\" --no-track origin/master #"
 [push]
         autoSetupRemote = true
 [init]
