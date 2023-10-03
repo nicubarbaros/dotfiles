@@ -21,6 +21,7 @@ brew install yarn
 brew install zsh
 #brew install neovim
 brew install vim
+brew install tmux
 
 # Install essential casks
 
