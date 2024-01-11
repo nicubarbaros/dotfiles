@@ -39,3 +39,5 @@
 [rerere]
   enabled = true
   autoUpdate = true
+[core]
+	editor = /usr/bin/vim
