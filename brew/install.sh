@@ -22,9 +22,10 @@ brew install zsh
 #brew install neovim
 brew install vim
 brew install tmux
+brew install zoxide
+brew install fzf # fuzzy finder for zoxide
 
 # Install essential casks
-
 brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask karabiner-elements
