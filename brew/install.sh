@@ -35,6 +35,7 @@ brew install --cask slack
 brew install --cask bitwarden
 brew install --cask visual-studio-code
 brew install --cask rectangle
+brew install --cask beeper
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;
