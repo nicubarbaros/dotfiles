@@ -7,4 +7,8 @@ Run into the terminal:
 
 ### Zsh
 
-You may need to [install oh-my-zsh](https://ohmyz.sh/#install) to have a beautiful terminal.
+- You may need to [install oh-my-zsh](https://ohmyz.sh/#install) to have a beautiful terminal.
+
+- Oh-my-zsh plugins:
+  - [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
