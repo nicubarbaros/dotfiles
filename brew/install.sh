@@ -26,17 +26,22 @@ brew install zoxide
 brew install fzf # fuzzy finder for zoxide
 
 # Install essential casks
-brew install --cask iterm2
+# brew install --cask iterm2
 brew install --cask google-chrome
+brew install --cask firefox
+brew install --cask postman
 brew install --cask karabiner-elements
 brew install --cask raycast
 brew install --cask notion
 brew install --cask zoom
 brew install --cask slack
 brew install --cask bitwarden
+brew install --cask 1password
 brew install --cask visual-studio-code
 brew install --cask rectangle
 brew install --cask beeper
+brew install --cask alacritty
+brew install --cask spotify
 
 # Update and Upgrade
 echo "Updating and upgrading Homebrew..."; echo;
