@@ -29,6 +29,7 @@ brew install fzf # fuzzy finder for zoxide
 # brew install --cask iterm2
 brew install --cask google-chrome
 brew install --cask firefox
+brew install --cask arc
 brew install --cask postman
 brew install --cask karabiner-elements
 brew install --cask raycast
