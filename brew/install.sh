@@ -23,6 +23,7 @@ brew install zsh
 brew install vim
 brew install tmux
 brew install zoxide
+brew install pyenv
 brew install fzf # fuzzy finder for zoxide
 
 # Install essential casks
